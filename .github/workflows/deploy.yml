@@ -50,7 +50,7 @@ jobs:
         with:
           path: docs/.vitepress/dist
 
-  # 部署工作
+  # 部署工作1
   deploy:
     environment:
       name: github-pages
