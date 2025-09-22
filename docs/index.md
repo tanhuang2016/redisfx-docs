@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "RedisFX"
+  text: "A Redis GUI Tool"
+  tagline: Developed Using JavaFX
+  image:
+    src: /png/duke.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
