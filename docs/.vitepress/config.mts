@@ -6,6 +6,9 @@ export default defineConfig({
   title: "RedisFX",
   description: "A RedisFX Guide",
   themeConfig: {
+    logo: '/svg/fx_icon.svg',
+    logoLink: "https://tanhuang2016.github.io/redisfx-docs/",
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
