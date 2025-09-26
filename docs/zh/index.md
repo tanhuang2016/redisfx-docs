@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "RedisFX"
-  text: "一个Redis桌面工具"
-  tagline: 使用JavaFX开发
+  text: "基于JavaFX开发的Redis可视化工具"
+  tagline: 为爱发电
   image:
     src: /png/duke.png
     alt: VitePress

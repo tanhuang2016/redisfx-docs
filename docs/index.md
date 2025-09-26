@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "RedisFX"
-  text: "A Redis GUI Tool"
-  tagline: Developed Using JavaFX
+  text: "Redis visualization tool developed based on JavaFX"
+  tagline: Generate electricity for love
   image:
     src: /png/duke.png
     alt: VitePress

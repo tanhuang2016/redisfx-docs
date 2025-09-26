@@ -45,7 +45,7 @@ img[src='/search.png'] {
 
 @media (min-width: 380px) {
   .image-src {
-    max-width: 450px !important;
-    max-height: 450px !important;
+    max-width: 430 !important;
+    max-height: 430 !important;
   }
 }
