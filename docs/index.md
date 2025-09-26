@@ -11,7 +11,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: What can JavaFX do?
+      text: What is JavaFX?
       link: /markdown-examples
     - theme: alt
       text: Download

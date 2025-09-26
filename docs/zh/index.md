@@ -11,7 +11,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: JavaFX 能干什么？
+      text: 什么是 JavaFX？
       link: /markdown-examples
     - theme: alt
       text: 立即下载
