@@ -11,11 +11,11 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: JavaFX 能干什么？
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 立即下载
+      link: https://github.com/tanhuang2016/RedisFX/releases/latest
 
 features:
   - title: Feature A
