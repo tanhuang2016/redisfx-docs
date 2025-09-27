@@ -11,7 +11,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: What is JavaFX?
+      text: What is RedisFX?
       link: /markdown-examples
     - theme: alt
       text: Download
