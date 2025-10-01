@@ -1,4 +1,7 @@
 # 什么是 RedisFX？
+::: tip
+This is a tip.
+:::
 ## 简介
 RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`工具，
 基于`Java`的跨平台机制运行在JVM上，支持的平台有：
@@ -71,9 +74,7 @@ export default {
 This is an info box.
 :::
 
-::: tip
-This is a tip.
-:::
+
 
 ::: warning
 This is a warning.

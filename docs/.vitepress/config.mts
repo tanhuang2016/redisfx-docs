@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/redisfx-docs/',
   title: "RedisFX",
   description: "A RedisFX Guide",
+  lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/redisfx-docs/svg/fx_icon.svg', type: 'image/svg+xml' }],
     ['link', { rel: 'icon', href: '/redisfx-docs/png/fx_icon_256.png', type: 'image/png' }]
@@ -50,6 +51,9 @@ export default defineConfig({
 
         outline: {
           label: '页面导航'
+        },
+        lastUpdated: {
+          text: '最后更新于'
         },
 
         socialLinks: [
