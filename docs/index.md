@@ -1,7 +1,8 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: RedisFX
+titleTemplate: Redis client GUI
 hero:
   name: "RedisFX"
   text: "Redis visualization tool developed based on JavaFX"

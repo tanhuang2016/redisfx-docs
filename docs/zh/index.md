@@ -1,7 +1,8 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: RedisFX
+titleTemplate: Redis可视化工具
 hero:
   name: "RedisFX"
   text: "基于JavaFX开发的Redis可视化工具"
