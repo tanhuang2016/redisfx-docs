@@ -24,7 +24,7 @@ export default defineConfig({
         logoLink: "https://tanhuang2016.github.io/redisfx-docs/",
         nav: [
           { text: '主页', link: '/zh' },
-          { text: '使用指南', link: '/zh/markdown-examples' }
+          { text: '使用指南', link: '/zh/introduction' }
         ],
 
         sidebar: [
@@ -32,8 +32,8 @@ export default defineConfig({
             text: '使用指南',
             collapsed: false,
             items: [
-              { text: '什么是 RedisFX？', link: '/zh/markdown-examples' },
-              { text: '如何安装', link: '/zh/introduction' },
+              { text: '什么是 RedisFX？', link: '/zh/introduction' },
+              { text: '如何安装', link: '/zh/install' },
               { text: '使用说明', link: '/zh/introduction' }
             ]
           }
@@ -51,7 +51,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/markdown-examples' }
+      { text: 'Guide', link: '/introduction' }
     ],
 
     sidebar: [
@@ -59,8 +59,8 @@ export default defineConfig({
         text: 'Guide',
         collapsed: false,
         items: [
-          { text: 'What is RedisFX?', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/introduction' }
+          { text: 'What is RedisFX?', link: '/introduction' },
+          { text: 'How to install', link: '/install' }
         ]
       }
     ],

@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 什么是 RedisFX？
-      link: /markdown-examples
+      link: /introduction
     - theme: alt
       text: 立即下载
       link: https://github.com/tanhuang2016/RedisFX/releases/latest
