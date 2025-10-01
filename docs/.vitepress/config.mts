@@ -33,8 +33,8 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '什么是 RedisFX？', link: '/zh/markdown-examples' },
-              { text: '如何安装', link: '/zh/api-examples' },
-              { text: '使用说明', link: '/zh/api-examples' }
+              { text: '如何安装', link: '/zh/introduction' },
+              { text: '使用说明', link: '/zh/introduction' }
             ]
           }
         ],
@@ -60,7 +60,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'What is RedisFX?', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/introduction' }
         ]
       }
     ],
