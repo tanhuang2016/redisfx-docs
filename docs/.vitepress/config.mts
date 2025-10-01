@@ -38,6 +38,19 @@ export default defineConfig({
             ]
           }
         ],
+        footer: {
+          message: '基于 MIT 许可发布',
+          copyright: '版权所有 © 2019-至今 尤雨溪'
+        },
+
+        docFooter: {
+          prev: '上一页',
+          next: '下一页'
+        },
+
+        outline: {
+          label: '页面导航'
+        },
 
         socialLinks: [
           { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' }

@@ -1,7 +1,7 @@
 # 什么是 RedisFX？
-
-RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的 Redis GUI 工具，
-基于Java的跨平台机制运行在JVM上，支持的平台有：
+## 简介
+RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`工具，
+基于`Java`的跨平台机制运行在JVM上，支持的平台有：
 
 
 
@@ -25,7 +25,7 @@ RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的 Redis GUI 
 
 ## 关于主题
 主题库使用[AtlantaFX](https://github.com/mkpaz/atlantafx)，默认支持7种主题，支持自定义主题
-
+<br>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
   <img src="/png/theme/theme-primer-light.png" alt="主题1" style="width: 30%; height: auto;border-radius: 30px;">
   <img src="/png/theme/theme-primer-dark.png" alt="主题2" style="width: 30%; height: auto;border-radius: 30px;">
