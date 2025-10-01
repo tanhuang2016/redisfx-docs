@@ -1,6 +1,7 @@
 # 什么是 RedisFX？
+
 ::: tip
-This is a tip.
+当前文档版本为 v2.3.9，文档版本将与 RedisFX应用版本一致。
 :::
 ## 简介
 RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`工具，
