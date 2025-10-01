@@ -34,7 +34,7 @@ export default defineConfig({
             items: [
               { text: '什么是 RedisFX？', link: '/zh/introduction' },
               { text: '如何安装', link: '/zh/install' },
-              { text: '使用说明', link: '/zh/introduction' }
+              { text: '使用说明', link: '/zh/user-manual' }
             ]
           }
         ],
@@ -60,7 +60,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'What is RedisFX?', link: '/introduction' },
-          { text: 'How to install', link: '/install' }
+          { text: 'Install', link: '/install' },
+          { text: 'User Manual', link: '/user-manual' },
+         
         ]
       }
     ],
