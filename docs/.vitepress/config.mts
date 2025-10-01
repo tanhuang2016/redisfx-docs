@@ -23,8 +23,8 @@ export default defineConfig({
         logo: '/svg/fx_icon.svg',
         logoLink: "https://tanhuang2016.github.io/redisfx-docs/",
         nav: [
-          { text: '主页', link: '/' },
-          { text: '使用指南', link: '/markdown-examples' }
+          { text: '主页', link: '/zh' },
+          { text: '使用指南', link: '/zh/markdown-examples' }
         ],
 
         sidebar: [
@@ -32,9 +32,9 @@ export default defineConfig({
             text: '使用指南',
             collapsed: false,
             items: [
-              { text: '什么是 RedisFX？', link: '/markdown-examples' },
-              { text: '如何安装', link: '/api-examples' },
-              { text: '使用说明', link: '/api-examples' }
+              { text: '什么是 RedisFX？', link: '/zh/markdown-examples' },
+              { text: '如何安装', link: '/zh/api-examples' },
+              { text: '使用说明', link: '/zh/api-examples' }
             ]
           }
         ],
