@@ -31,6 +31,19 @@ Linux 平台上提供了三种发行版本，包括x86和ARM架构，其中`.rpm
 -  `rdm-ui-v2.x.x-linux-arm64.gz` 
 -  `rdm-ui-v2.x.x-linux-arm64.jar` 
 
+## MacOS
+MacOS 平台上提供了两种发行版本，包括x86和ARM架构，其中`.dmg` 为安装版本，其安装过程与其他软件相同，`.gz` 为便携版本，解压后即可运行，`.jar` 为Java原生版本，需要Java运行环境。
+
+
+-  `rdm-ui-v2.x.x-macos-x86_64.dmg`
+-  `rdm-ui-v2.x.x-macos-x86_64.jar` 
+-  `rdm-ui-v2.x.x-macos-arm64.dmg`
+-  `rdm-ui-v2.x.x-macos-arm64.jar` 
+
+::: danger 待优化
+dmg安装包目前包含整个Java运行环境，导致体积较大，后续会进行优化，对lib进行瘦身。([相关Issue](https://github.com/tanhuang2016/RedisFX/issues/10))
+:::
+
 ### Theme Data
 <pre>{{ theme }}</pre>
 
