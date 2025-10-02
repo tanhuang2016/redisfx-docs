@@ -20,6 +20,17 @@ Windows 平台上提供了四种发行版本，不包含ARM架构(JavaFX目前�
 -  `rdm-ui-v2.x.x-windows-x86_64.msi` 
 -  `rdm-ui-v2.x.x-windows-x86_64.jar` 
 
+## Linux
+Linux 平台上提供了三种发行版本，包括x86和ARM架构，其中`.rpm` 为安装版本，其安装过程与其他软件相同，`.gz` 为便携版本，解压后即可运行，`.jar` 为Java原生版本，需要Java运行环境。
+
+
+-  `rdm-ui-v2.x.x-linux-x86_64.rpm`
+-  `rdm-ui-v2.x.x-linux-x86_64.gz` 
+-  `rdm-ui-v2.x.x-linux-x86_64.jar` 
+-  `rdm-ui-v2.x.x-linux-arm64.rpm`
+-  `rdm-ui-v2.x.x-linux-arm64.gz` 
+-  `rdm-ui-v2.x.x-linux-arm64.jar` 
+
 ### Theme Data
 <pre>{{ theme }}</pre>
 
