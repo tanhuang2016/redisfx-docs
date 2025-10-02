@@ -1,8 +1,9 @@
 # 什么是 RedisFX？
 
-::: tip
-当前文档版本为 v2.3.9，文档版本将与 RedisFX应用版本一致。
-:::
+<div class="tip custom-block" style="padding-top: 8px">
+当前文档版本为 v2.3.9，文档版本将与 RedisFX应用版本保持一致。
+</div>
+
 ## 简介
 RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`工具，
 基于`Java`的跨平台机制运行在JVM上，支持的平台有：

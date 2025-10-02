@@ -41,7 +41,7 @@ export default defineConfig({
         ],
         footer: {
           message: '基于 Apache Licence 2.0 许可发布',
-          copyright: '版权所有 © 2023-至今 RedisFX贡献者'
+          copyright: '版权所有 © 2023-至今 RedisFX所有贡献者'
         },
 
         docFooter: {
