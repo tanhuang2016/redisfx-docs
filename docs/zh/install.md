@@ -7,15 +7,19 @@ outline: deep
 - 前往 [官网首页](/zh/) 下载，请根据你的操作系统选择对应的最新发布版本进行下载。
 - 前往 [GitHub 仓库](https://github.com/tanhuang2016/RedisFX/releases) 下载，可以自行选择对应的版本进行下载。
 - 前往 [Gitee 仓库](https://gitee.com/tanhuang2016/RedisFX) 下载，可以自行选择对应的版本进行下载。
-- Java开发的同学可以前往 [Maven 中央仓库](https://central.sonatype.com/artifact/io.github.tanhuang2016/rdm-ui) 下载 或通过 Maven 引入依赖进行使用。
+- Java开发的同学可以前往 [Maven 中央仓库](https://central.sonatype.com/artifact/io.github.tanhuang2016/rdm-ui) 复制POM 配置，引入依赖进行使用。
 :::
 
 ## Windows
-Windows 平台上提供了四种发行版本，一种是 安装版，另一种则是 便携版 。便携版无需安装，解压后即可运行；安装版则需要安装，其安装过程与其他软件相同。大家可以根据自己的喜好进行选择。
--  rdm-ui-v2.x.x-windows-x86_64.exe 
--  rdm-ui-v2.x.x-windows-x86_64.zip 
--  rdm-ui-v2.x.x-windows-x86_64.msi 
--  rdm-ui-v2.x.x-windows-x86_64.jar 
+Windows 平台上提供了四种发行版本，不包含ARM架构(JavaFX目前在Windows平台仅支持x86_64架构)，其中`.exe` 和 `.msi`为安装版本，其安装过程与其他软件相同，推荐优先使用`.exe`进行安装，它支持自定义路径和规则配置，`.zip` 为便携版本，解压后即可运行，`.jar` 为Java原生版本，需要Java运行环境。
+
+
+大家可以根据自己的使用习惯和需求进行选择。
+-  `rdm-ui-v2.x.x-windows-x86_64.exe`
+-  `rdm-ui-v2.x.x-windows-x86_64.zip` 
+-  `rdm-ui-v2.x.x-windows-x86_64.msi` 
+-  `rdm-ui-v2.x.x-windows-x86_64.jar` 
+
 ### Theme Data
 <pre>{{ theme }}</pre>
 
