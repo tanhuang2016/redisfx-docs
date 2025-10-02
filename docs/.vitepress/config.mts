@@ -24,7 +24,7 @@ export default defineConfig({
         logo: '/svg/fx_icon.svg',
         logoLink: "https://tanhuang2016.github.io/redisfx-docs/",
         nav: [
-          { text: '主页', link: '/zh' },
+          { text: '主页', link: '/zh/' },
           { text: '使用指南', link: '/zh/introduction' }
         ],
 
