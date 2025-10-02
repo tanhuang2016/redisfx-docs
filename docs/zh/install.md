@@ -62,3 +62,6 @@ dmg安装包目前包含整个Java运行环境，导致体积较大，后续会�
             }
         }
 ```
+
+## 其他安装方式
+对于其它包管理工具的支持尚未完成，如果你有这方面的需求，请提 [Issue](https://github.com/tanhuang2016/RedisFX/issues)

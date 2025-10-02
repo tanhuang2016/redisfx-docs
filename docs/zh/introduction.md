@@ -18,7 +18,7 @@ RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`
 
 
 ## 特性
-几乎涵盖你需要的所有功能，那如果没有，请提 [Issues](https://github.com/tanhuang2016/RedisFX/issues)
+几乎涵盖你需要的所有功能，那如果没有，请提 [Issue](https://github.com/tanhuang2016/RedisFX/issues)
 
 - &#x2714; SSH、SSL 全协议支持
 - &#x2714; Cluster(集群)、Sentinel(哨兵) 模式支持
