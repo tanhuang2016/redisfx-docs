@@ -7,7 +7,7 @@ outline: deep
 - 前往 [官网首页](/zh/) 下载，请根据你的操作系统选择对应的最新发布版本进行下载。
 - 前往 [GitHub 仓库](https://github.com/tanhuang2016/RedisFX/releases) 下载，可以自行选择对应的版本进行下载。
 - 前往 [Gitee 仓库](https://gitee.com/tanhuang2016/RedisFX) 下载，可以自行选择对应的版本进行下载。
-- Java开发的同学可以前往 [Maven 中央仓库](https://central.sonatype.com/artifact/io.github.tanhuang2016/rdm-ui) 复制POM 配置，引入依赖进行使用。
+- Java开发的同学可以前往 [Maven 中央仓库](https://central.sonatype.com/artifact/io.github.tanhuang2016/rdm-ui) 复制POM 配置，引入依赖进行使用，详情见下文。
 :::
 
 ## Windows
@@ -44,33 +44,21 @@ MacOS 平台上提供了两种发行版本，包括x86和ARM架构，其中`.dmg
 dmg安装包目前包含整个Java运行环境，导致体积较大，后续会进行优化，对lib进行瘦身。([相关Issue](https://github.com/tanhuang2016/RedisFX/issues/10))
 :::
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
+## Maven 引入依赖使用
+从v2.3.10版本开始，RedisFX已支持Maven引入依赖进行使用，提供Maven依赖的目的是为后续插件扩展做准备。
+```xml
+        <dependency>
+            <groupId>io.github.tanhuang2016</groupId>
+            <artifactId>rdm-ui</artifactId>
+            <!-- 2.3.10.2为临时发布版本，请自行引入最新版本 -->
+            <version>2.3.10.2</version>
+        </dependency>
 ```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+引入依赖后，即可在项目中运行RedisFX。
+```java
+        public class Main {
+            public static void main(String[] args) {
+                RedisFX.main(args);
+            }
+        }
+```
