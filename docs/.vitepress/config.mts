@@ -19,7 +19,7 @@ export default defineConfig({
     zh: {
       label: '简体中文',
       lang: 'zh-CN',
-      link: '/zh',
+      link: '/zh/',
       themeConfig: {
         logo: '/svg/fx_icon.svg',
         logoLink: "https://tanhuang2016.github.io/redisfx-docs/",
