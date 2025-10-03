@@ -12,8 +12,8 @@ outline: deep
 ## 新建连接
 打开RedisFX会默认弹出连接管理窗口，可以新建分组和连接，支持编辑、重命名、删除等管理操作。
 <ImageWithTheme 
-  light-src="/png/manual/new_connection.png"
-  dark-src="/png/manual/new_connection_dark.png"
+  light-src="/png/manual/zh/new_connection.png"
+  dark-src="/png/manual/zh/new_connection_dark.png"
   alt="连接示例"
    margin="10px 30px 10px 30px"
 />
