@@ -1,16 +1,13 @@
 <script setup>
 import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 </script>
----
-outline: deep
----
 
 # 使用说明
 
 
 
 ## 新建连接
-打开RedisFX会默认弹出连接管理窗口，可以新建分组和连接，支持编辑、重命名、删除等管理操作。
+打开RedisFX会默认弹出连接管理窗口或通过点击菜单 &rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">连接</span> 进行打开，然后就可以再管理界面中新建分组和连接，支持编辑、重命名、删除等操作。
 <ImageWithTheme 
   light-src="/png/manual/zh/new_connection.png"
   dark-src="/png/manual/zh/new_connection_dark.png"
