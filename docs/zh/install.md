@@ -41,7 +41,7 @@ MacOS 平台上提供了两种发行版本，包括x86和ARM架构，其中`.dmg
 -  `rdm-ui-v2.x.x-macos-arm64.jar` 
 
 ::: danger 待优化
-dmg安装包目前包含整个Java运行环境，导致体积较大，后续会进行优化，对lib进行瘦身。([相关Issue](https://github.com/tanhuang2016/RedisFX/issues/10))
+dmg安装包目前包含整个Java运行环境，导致体积较大，后续会进行优化，对lib进行瘦身。([Issue#10](https://github.com/tanhuang2016/RedisFX/issues/10))
 :::
 
 ## Maven 引入依赖使用
