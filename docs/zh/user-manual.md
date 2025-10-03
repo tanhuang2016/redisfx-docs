@@ -20,10 +20,47 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 
 
 ### 新建连接
+填写连接名称、地址、端口、密码(没有则不填)，可点击测试按钮进行测试，点击确定即可完成新建。
+
+::: tip 集群和哨兵模式
+集群模式只需勾选`集群模式`选项框即可，会自动识别集群模式下的节点。
+<br/>
+哨兵模式勾选之后需要填写主节点名称，会自动识别主节点的从节点。
+:::
 
 <ImageWithTheme 
   light-src="/png/manual/zh/new_connection.png"
   dark-src="/png/manual/zh/new_connection_dark.png"
   alt="新建连接"
+  margin="10px 120px 10px 120px"
+/>
+
+### SSL/TLS协议配置
+填写SSL/TLS协议的授权证书、公钥证书、私钥证书、私钥密码(没有则不填)，需要勾选`使用SSL协议`选项框才会生效。
+<ImageWithTheme 
+  light-src="/png/manual/zh/ssl.png"
+  dark-src="/png/manual/zh/ssl_dark.png"
+  alt="SSL/TLS协议配置"
+  margin="10px 120px 10px 120px"
+/>
+
+
+### SSH隧道协议配置
+填写SSH隧道协议的地址、端口、用户名、密码，如果使用证书配置还需要填写私钥证书、私钥密码(没有则不填)，需要勾选`使用SSH连接`选项框才会生效。
+::: tip 转发端口
+SSH转发端口默认是随机生成，后续可能会添加手动指定端口的功能。
+:::
+<ImageWithTheme 
+  light-src="/png/manual/zh/ssh.png"
+  dark-src="/png/manual/zh/ssh_dark.png"
+  alt="SSL/TLS协议配置"
+  margin="10px 120px 10px 120px"
+/>
+
+### 高级选项配置
+<ImageWithTheme 
+  light-src="/png/manual/zh/advanced.png"
+  dark-src="/png/manual/zh/advanced_dark.png"
+  alt="高级选项配置"
   margin="10px 120px 10px 120px"
 />
