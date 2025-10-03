@@ -15,6 +15,7 @@ outline: deep
   light-src="/png/manual/new_connection.png"
   dark-src="/png/manual/new_connection_dark.png"
   alt="连接示例"
+   margin="10px 30px 10px 30px"
 />
 
 ### Theme Data
