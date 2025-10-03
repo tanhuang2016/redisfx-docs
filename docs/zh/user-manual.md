@@ -47,7 +47,7 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 
 ### SSH隧道协议配置
 填写SSH隧道协议的地址、端口、用户名、密码，如果使用证书配置还需要填写私钥证书、私钥密码(没有则不填)，需要勾选`使用SSH连接`选项框才会生效。
-::: tip 转发端口
+::: tip 端口转发
 SSH转发端口默认是随机生成，后续可能会添加手动指定端口的功能。
 :::
 <ImageWithTheme 
@@ -58,6 +58,7 @@ SSH转发端口默认是随机生成，后续可能会添加手动指定端口�
 />
 
 ### 高级选项配置
+高级选项的参数包括:连接超时时间、执行超时时间、Key分隔符、展示风格,后续版本会完善默认Key加载数量、类型展示等更多的参数配置。
 <ImageWithTheme 
   light-src="/png/manual/zh/advanced.png"
   dark-src="/png/manual/zh/advanced_dark.png"
