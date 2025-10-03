@@ -1,3 +1,6 @@
+---
+outline: deep
+---
 <script setup>
 import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 </script>
@@ -6,42 +9,14 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 
 
 
-## 新建连接
+## 连接管理
 打开RedisFX会默认弹出连接管理窗口或通过点击菜单 &rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">连接</span> 进行打开，然后就可以再管理界面中新建分组和连接，支持编辑、重命名、删除等操作。
 <ImageWithTheme 
-  light-src="/png/manual/zh/new_connection.png"
-  dark-src="/png/manual/zh/new_connection_dark.png"
+  light-src="/png/manual/zh/connection.png"
+  dark-src="/png/manual/zh/connection_dark.png"
   alt="连接示例"
    margin="10px 30px 10px 30px"
 />
 
-### Theme Data
-<pre>{{ theme }}</pre>
 
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+### 新建连接
