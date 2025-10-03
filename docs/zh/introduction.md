@@ -1,3 +1,7 @@
+<script setup>
+import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
+</script>
+
 # 什么是 RedisFX？
 
 <div class="tip custom-block" style="padding-top: 8px">
@@ -57,3 +61,12 @@ RedisFX是使用`JavaFX`开发的一款轻量级、现代化主题的`Redis GUI`
   <img src="/png/theme/theme-cupertino-dark.png" alt="主题6" style="width: 30%; height: auto;border-radius: 30px;">
   <img src="/png/theme/theme-dracula.png" alt="主题7" style="width: 30%; height: auto;border-radius: 30px;">
 </div>
+
+## 示例图片
+
+<ImageWithTheme 
+  light-src="/png/introduction/zh/example.png"
+  dark-src="/png/introduction/zh/example_dark.png"
+  alt="示例图片"
+  margin="10px 10px 10px 10px"
+/>
