@@ -1,21 +1,21 @@
+<script setup>
+import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
+</script>
 ---
 outline: deep
 ---
 
-# Runtime API Examples
+# 使用说明
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
 
-```md
-<script setup>
-import { useData } from 'vitepress'
-
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
+## 新建连接
+打开RedisFX会默认弹出连接管理窗口，可以新建分组和连接，支持编辑、重命名、删除等管理操作。
+<ImageWithTheme 
+  light-src="/png/manual/new_connection.png"
+  dark-src="/png/manual/new_connection_dark.png"
+  alt="连接示例"
+/>
 
 ### Theme Data
 <pre>{{ theme }}</pre>
