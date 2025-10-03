@@ -14,9 +14,16 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 <ImageWithTheme 
   light-src="/png/manual/zh/connection.png"
   dark-src="/png/manual/zh/connection_dark.png"
-  alt="连接示例"
-   margin="10px 30px 10px 30px"
+  alt="连接管理"
+  margin="10px 120px 10px 120px"
 />
 
 
 ### 新建连接
+
+<ImageWithTheme 
+  light-src="/png/manual/zh/new_connection.png"
+  dark-src="/png/manual/zh/new_connection_dark.png"
+  alt="新建连接"
+  margin="10px 120px 10px 120px"
+/>
