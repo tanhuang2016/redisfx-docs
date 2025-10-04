@@ -103,3 +103,43 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ### 右键菜单
+
+<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+  <div style="flex: 1; text-align: left;margin-top: 20px;">
+     <ul>
+      <li>打开: 展开目录或打开key详情界面</li>
+      <li>刷新: 刷新key列表</li>
+      <li>删除: 只能对key进行删除，可以多选后批量操作</li>
+      <li>清空: 执行flushdb命令,会删除所有key，请谨慎操作</li>
+      <li>导出: 执行dump命令对key进行转储，支持多选后批量操作</li>
+      <li>多选框: key选项支持多选框选择</li>
+      <li>控制台: 打开命令控制台窗口，可以多开</li>
+      <li>控制台: 打开命令监控窗口，一个连接只能打开一个</li>
+      <li>控制台: 打开发布订阅窗口，一个连接只能打开一个</li>
+      <li>控制台: 打开信息报表窗口，一个连接只能打开一个</li>
+    </ul>
+  </div>
+  <div style="margin-left: 20px;margin-right: 60px;">
+    <ImageWithTheme 
+      light-src="/png/manual/zh/key_right_menu.png"
+      dark-src="/png/manual/zh/key_right_menu_dark.png"
+      alt="右键菜单"
+      style="display: block; margin: 0;"
+    />
+  </div>
+</div>
+
+### 多选框功能
+
+`Ctrl`和`Shift`是系统常见的多选方式，它快捷方便有其自有的优势，多选框是对其的补充，给用户一个更严谨直观的批量操作方式，多选框打开后会弹出副菜单栏，支持对key的删除和导出操作。
+
+::: tip 注意
+在RedisFX使用`Ctrl`和`Shift`对key选项进行多选时，只会对key进行多选，不会对目录进行多选。如果是多层级的树结构会带来不好的体验，则可以用多选框模式，支持对目录进行多选(会涵盖该目录下所有节点)。
+:::
+
+<ImageWithTheme 
+  light-src="/png/manual/zh/key_checkbox.png"
+  dark-src="/png/manual/zh/key_checkbox_dark.png"
+  alt="搜索"
+  margin="10px 120px 10px 120px"
+/>
