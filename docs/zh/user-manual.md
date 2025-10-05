@@ -241,6 +241,18 @@ Stream类型界面由一个数据列表，和列表元素显示区域，提供�
 
 ### 命令监控
 
+- 监控Redis的命令，显示命令的调用时间、调用主机和命令信息。
+::: tip 注意
+命令监控会产生额外的开销，降低吞吐量，避免在生产环境使用此功能。
+:::
+
+<ImageWithTheme 
+  light-src="/png/manual/monitor.png"
+  dark-src="/png/manual/monitor_dark.png"
+  alt="monitor"
+  margin="10px 10px 10px 10px"
+/>
+
 ### 信息报表
 
 ### 发布订阅
