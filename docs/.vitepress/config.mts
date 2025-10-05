@@ -35,9 +35,25 @@ export default defineConfig({
             items: [
               { text: '什么是 RedisFX？', link: '/zh/introduction' },
               { text: '如何安装', link: '/zh/install' },
-              { text: '使用说明', link: '/zh/user-manual' }
+              { text: '使用说明', link: '/zh/user-manual' },
+              { text: '扩展功能', link: '/zh/extensions' },
+              { text: '设置', link: '/zh/settings' }
             ]
-          }
+          },
+           {
+            text: '开发和构建',
+            collapsed: false,
+            items: [
+              { text: '开发', link: '/zh/introduction' },
+              { text: '构建', link: '/zh/install' }
+            ]
+          },
+          {
+            text: '贡献指南',
+            link: '/zh/introduction',
+            
+          },
+          
         ],
         footer: {
           message: '基于 Apache Licence 2.0 许可发布',
