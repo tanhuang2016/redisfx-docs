@@ -143,3 +143,68 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
   alt="搜索"
   margin="10px 120px 10px 120px"
 />
+
+## Key详情界面 
+
+### String类型
+
+<ImageWithTheme 
+  light-src="/png/manual/string.png"
+  dark-src="/png/manual/string_dark.png"
+  alt="string"
+  margin="10px 10px 10px 10px"
+/>
+
+### List类型
+
+<ImageWithTheme 
+  light-src="/png/manual/list.png"
+  dark-src="/png/manual/list_dark.png"
+  alt="list"
+  margin="10px 10px 10px 10px"
+/>
+
+### Hash类型
+
+<ImageWithTheme 
+  light-src="/png/manual/hash.png"
+  dark-src="/png/manual/hash_dark.png"
+  alt="hash"
+  margin="10px 10px 10px 10px"
+/>
+
+### Set类型
+
+<ImageWithTheme 
+  light-src="/png/manual/set.png"
+  dark-src="/png/manual/set_dark.png"
+  alt="set"
+  margin="10px 10px 10px 10px"
+/>
+
+### Zset类型
+
+<ImageWithTheme 
+  light-src="/png/manual/zset.png"
+  dark-src="/png/manual/zset_dark.png"
+  alt="zset"
+  margin="10px 10px 10px 10px"
+/>
+
+### Json类型
+
+<ImageWithTheme 
+  light-src="/png/manual/json.png"
+  dark-src="/png/manual/json_dark.png"
+  alt="json"
+  margin="10px 10px 10px 10px"
+/>
+
+### Stream类型
+
+<ImageWithTheme 
+  light-src="/png/manual/stream.png"
+  dark-src="/png/manual/stream_dark.png"
+  alt="stream"
+  margin="10px 10px 10px 10px"
+/>
