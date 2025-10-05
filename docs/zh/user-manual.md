@@ -217,3 +217,30 @@ Stream类型界面由一个数据列表，和列表元素显示区域，提供�
   alt="stream"
   margin="10px 10px 10px 10px"
 />
+
+## 功能界面
+通过key控制面板的右键可以打开功能界面，功能界面包含命令控制台、命令监控、信息报表、发布订阅。
+
+### 命令控制台 
+- 通过命令的方式和Redis进行交互，`Enter键`发送命令，`clear`命令清空显示框。
+- 输入命令或按`Tab键`会弹出命令提示框，按`↓键`可以进行选择，再按`Enter键`可以确认选择。
+- 通过`↑键`和`↓键`可以查找历史输入命令。
+::: tip 注意
+提示命令来源于[Redis文档](https://github.com/redis/redis-doc/blob/master/commands.json)，可能不全。
+<br/>
+默认显示数据是1000行，如果结果超过1000行，会自动截断，比如 `keys *`命令。
+:::
+
+<ImageWithTheme 
+  light-src="/png/manual/console.png"
+  dark-src="/png/manual/console_dark.png"
+  alt="console"
+  margin="10px 10px 10px 10px"
+/>
+
+
+### 命令监控
+
+### 信息报表
+
+### 发布订阅
