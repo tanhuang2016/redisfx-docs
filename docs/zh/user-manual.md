@@ -145,9 +145,13 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ## Key详情界面 
+Key详情界面会根据key的类型进行展示，目前支持的key类型有String、List、Hash、Set、Zset、Json、Stream，并统一提供了`重命名`、`时效修改`、`删除`、`刷新`按钮。
+<div class="tip custom-block" style="padding-top: 8px">
+鼠标停顿在刷新按钮1秒后会弹出自动刷新启动窗口，可进行自动刷新，最右侧会显示key的上次刷新时间。
+</div>
 
 ### String类型
-
+Redis的String类型存储的是字节数组，不仅仅支持文本存储，理论上是支持所有类型数据，例如图片、音视频等。对此抽象数据的展示区域统一提供了，查看器和编解码器的选择，并显示了数据的大小，提供了复制、导入/导出的快捷按钮，如果是文本类型数据还提供了字符集编码选择。
 <ImageWithTheme 
   light-src="/png/manual/string.png"
   dark-src="/png/manual/string_dark.png"
@@ -156,7 +160,7 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ### List类型
-
+List类型界面由一个数据列表，和列表元素显示区域，提供了新增头、新增尾、删除头、删除尾、删除选中行的功能。元素数据显示区域和String类型设计一致。
 <ImageWithTheme 
   light-src="/png/manual/list.png"
   dark-src="/png/manual/list_dark.png"
@@ -165,7 +169,7 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ### Hash类型
-
+Hash类型界面由一个数据列表，和列表元素显示区域，提供了新增和删除的功能。元素数据显示区域分为两块，分别是Hash的key、value，其设计和String类型一致。
 <ImageWithTheme 
   light-src="/png/manual/hash.png"
   dark-src="/png/manual/hash_dark.png"
@@ -174,6 +178,8 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ### Set类型
+
+Set类型界面由一个数据列表，和列表元素显示区域，提供了新增、删除的功能。元素数据显示区域和String类型设计一致。
 
 <ImageWithTheme 
   light-src="/png/manual/set.png"
@@ -184,6 +190,8 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 
 ### Zset类型
 
+Zset类型界面由一个数据列表，和列表元素显示区域，提供了新增、删除的功能。元素数据显示区域分为两块，分别是Zset的score和value，value展示区域String类型设计一致。
+
 <ImageWithTheme 
   light-src="/png/manual/zset.png"
   dark-src="/png/manual/zset_dark.png"
@@ -192,7 +200,7 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 />
 
 ### Json类型
-
+Json类型界面几乎和String类型一致，只是数据只能是Json文本。
 <ImageWithTheme 
   light-src="/png/manual/json.png"
   dark-src="/png/manual/json_dark.png"
@@ -202,6 +210,7 @@ key的加载使用管道命令优化，性能有所提升，但巨量key加载�
 
 ### Stream类型
 
+Stream类型界面由一个数据列表，和列表元素显示区域，提供了新增、删除的功能。元素数据显示区域分为两块，分别是Stream的id和value，value展示区域String类型设计一致，只能是Json文本。
 <ImageWithTheme 
   light-src="/png/manual/stream.png"
   dark-src="/png/manual/stream_dark.png"
