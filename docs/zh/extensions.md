@@ -38,6 +38,7 @@ stdio适合快速开发，文件交互模式更适合数据量大或者需要对
 - 测试效果
 
 ![test](/png/extensions/cmd_bat_test.png)
+分别在解码和编码配置的命令输入框填写脚本路径，如：E:/xxx/join_stdio_decode.bat 和 E:/xxx/join_stdio_encode.bat
 
 - 解码器
 ``` bat
