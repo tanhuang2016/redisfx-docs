@@ -274,3 +274,10 @@ Stream类型界面由一个数据列表，和列表元素显示区域，提供�
 
 
 ### 发布订阅
+支持发布/订阅功能。
+<ImageWithTheme 
+  light-src="/png/manual/pubsub.png"
+  dark-src="/png/manual/pubsub_dark.png"
+  alt="pubsub"
+  margin="10px 10px 10px 10px"
+/>
