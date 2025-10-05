@@ -255,4 +255,22 @@ Stream类型界面由一个数据列表，和列表元素显示区域，提供�
 
 ### 信息报表
 
+对Redis信息进行统计，包括key数量、内存占用、命令调用次数等，如果你有更好的想法，欢迎提[Issue](https://github.com/tanhuang2016/RedisFX/issues)。
+
+<ImageWithTheme 
+  light-src="/png/manual/report1.png"
+  dark-src="/png/manual/report1_dark.png"
+  alt="report1"
+  margin="10px 10px 10px 10px"
+/>
+
+<ImageWithTheme 
+  light-src="/png/manual/report2.png"
+  dark-src="/png/manual/report2_dark.png"
+  alt="report2"
+  margin="10px 10px 10px 10px"
+/>
+
+
+
 ### 发布订阅
