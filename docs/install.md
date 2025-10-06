@@ -53,8 +53,8 @@ Starting from version v2.3.10, RedisFX supports Maven dependency introduction fo
         <dependency>
             <groupId>io.github.tanhuang2016</groupId>
             <artifactId>rdm-ui</artifactId>
-            <!-- 2.3.10.2 is a temporary release version, please introduce the latest version yourself -->
-            <version>2.3.10.2</version>
+            <!-- 2.3.10.3 is a temporary release version, please introduce the latest version yourself -->
+            <version>2.3.10.3</version>
         </dependency>
 ```
 After introducing the dependency, RedisFX can be run in the project.

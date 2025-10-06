@@ -50,8 +50,8 @@ dmg安装包目前包含整个Java运行环境，导致体积较大，后续会�
         <dependency>
             <groupId>io.github.tanhuang2016</groupId>
             <artifactId>rdm-ui</artifactId>
-            <!-- 2.3.10.2为临时发布版本，请自行引入最新版本 -->
-            <version>2.3.10.2</version>
+            <!-- 2.3.10.3为临时发布版本，请自行引入最新版本 -->
+            <version>2.3.10.3</version>
         </dependency>
 ```
 引入依赖后，即可在项目中运行RedisFX。
