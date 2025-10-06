@@ -44,13 +44,13 @@ export default defineConfig({
             text: '开发和构建',
             collapsed: false,
             items: [
-              { text: '开发', link: '/zh/introduction' },
-              { text: '构建', link: '/zh/install' }
+              { text: '开发', link: '/zh/dev' },
+              { text: '构建', link: '/zh/build' }
             ]
           },
           {
             text: '贡献指南',
-            link: '/zh/introduction',
+            link: '/zh/contribution',
             
           },
           
