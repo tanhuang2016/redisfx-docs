@@ -95,8 +95,23 @@ export default defineConfig({
           { text: 'What is RedisFX?', link: '/introduction' },
           { text: 'Install', link: '/install' },
           { text: 'User Manual', link: '/user-manual' },
-         
+          { text: '扩展功能', link: '/extensions' },
+          { text: '设置', link: '/settings' }
+
         ]
+      },
+      {
+        text: '开发和构建',
+        collapsed: false,
+        items: [
+          { text: '开发', link: '/dev' },
+          { text: '构建', link: '/build' }
+        ]
+      },
+      {
+        text: '贡献指南',
+        link: '/contribution',
+
       }
     ],
 
