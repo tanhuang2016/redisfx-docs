@@ -95,26 +95,29 @@ export default defineConfig({
           { text: 'What is RedisFX?', link: '/introduction' },
           { text: 'Install', link: '/install' },
           { text: 'User Manual', link: '/user-manual' },
-          { text: '扩展功能', link: '/extensions' },
-          { text: '设置', link: '/settings' }
+          { text: 'Extensions', link: '/extensions' },
+          { text: 'Settings', link: '/settings' }
 
         ]
       },
       {
-        text: '开发和构建',
+        text: 'Development and Build',
         collapsed: false,
         items: [
-          { text: '开发', link: '/dev' },
-          { text: '构建', link: '/build' }
+          { text: 'Development', link: '/dev' },
+          { text: 'Build', link: '/build' }
         ]
       },
       {
-        text: '贡献指南',
+        text: 'Contribution',
         link: '/contribution',
 
       }
     ],
-
+    footer: {
+      message: 'Released under the Apache License 2.0',
+      copyright: 'Copyright © 2023-present RedisFX Contributors'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' }
     ]
