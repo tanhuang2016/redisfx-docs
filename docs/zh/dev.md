@@ -12,7 +12,7 @@
 
 ## 项目结构
 
-```treeview
+```text
 RedisDesktopManagerFX
 ├─rdm-common 公共模块，定义通用工具，线程池等
 ├─rdm-redis redis服务模块，对ui需要的接口进行约束

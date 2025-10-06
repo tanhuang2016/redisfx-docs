@@ -1,15 +1,14 @@
 
+# Build
 
-# 构建
+This project uses Maven for building. With the required environment set up, you can directly run the mvn clean package -DskipTests command.
 
-本项目使用Maven进行构建，在有运行环境的情况下，直接运行`mvn clean package -DskipTests`命令即可。
+## Build Plugins
 
-## 构建插件
+- Windows and Linux use the [JavaPackager](https://github.com/fvarrui/JavaPackager) plugin for packaging and building.
+- MacOS uses jlink to customize the JDK (to bypass signing issues), then uses jpackage for packaging and building.
+## Local Build
 
-- Windows和Linux使用[JavaPackager](https://github.com/fvarrui/JavaPackager)插件进行打包构建。
-- MacOS使用jlink自定义jdk后(绕过签名问题)，使用jpackage进行打包构建。
-## 本地构建
-
-- 需要满足[JavaPackager](https://github.com/fvarrui/JavaPackager)插件的构建环境，才能打出安装包。
-- 没有环境，也可以打出可执行jar包。
+- You need to meet the build environment requirements of the [JavaPackager](https://github.com/fvarrui/JavaPackager) plugin to create an installation package.
+- Without the environment, you can still generate an executable jar package.
 
