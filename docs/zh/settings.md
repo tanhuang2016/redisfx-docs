@@ -8,7 +8,8 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 
 # 设置
 
-&rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">设置</span> 打开设置窗口。
+- &rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">设置</span> 打开设置窗口。
+- 设置信息持久化使用Java的首选项`Preferences`，默认存储在用户目录下。
 
 ## 常规
 

@@ -1,32 +1,15 @@
----
-outline: deep
----
 
-<script setup>
-import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
-</script>
 
-# 设置
+# 构建
 
-&rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">设置</span> 打开设置窗口。
+本项目使用Maven进行构建，在有运行环境的情况下，直接运行`mvn clean package -DskipTests`命令即可。
 
-## 常规
+## 构建插件
 
-### 主题效果
-设置主题、字体、字体大小。
-### 语言设置
-支持中文、英文、日文。
+- Windows和Linux使用[JavaPackager](https://github.com/fvarrui/JavaPackager)插件进行打包构建。
+- MacOS使用jlink自定义jdk后(绕过签名问题)，使用jpackage进行打包构建。
+## 本地构建
 
-## 全局选项
-### Redis连接高级选项
-Redis连接高级选项的统一设置，连接管理窗口中的高级选项配置优先级更高。
-### Key标签自定义
-自定义key标签、标签颜色。
+- 需要满足[JavaPackager](https://github.com/fvarrui/JavaPackager)插件的构建环境，才能打出安装包。
+- 没有环境，也可以打出可执行jar包。
 
-## 窗口
-### 标签页效果
-设置窗口标签页效果。
-
-## 扩展
-### 编/解码器
-自定义编解码器。详见 [数据编解码](./extensions.md#数据编解码)
