@@ -3,31 +3,31 @@ outline: deep
 ---
 
 <script setup>
-import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
+import ImageWithTheme from '.vitepress/components/ImageWithTheme.vue'
 </script>
 
-# 设置
+# Settings
 
-- &rarr;<span style="color: var(--vp-c-brand);">文件</span> &rarr; <span style="color: var(--vp-c-brand);">设置</span> 打开设置窗口。
-- 设置信息持久化使用Java的首选项`Preferences`，默认存储在用户目录下。
+- &rarr;<span style="color: var(--vp-c-brand);">File</span> &rarr; <span style="color: var(--vp-c-brand);">Settings</span> Open the settings window.
+- Settings persistence uses Java's `Preferences`, stored in the user directory by default.
 
-## 常规
+## General
 
-### 主题效果
-设置主题、字体、字体大小。
-### 语言设置
-支持中文、英文、日文。
+### Theme Effects
+Set theme, font, font size.
+### Language Settings
+Supports Chinese, English, Japanese.
 
-## 全局选项
-### Redis连接高级选项
-Redis连接高级选项的统一设置，连接管理窗口中的高级选项配置优先级更高。
-### Key标签自定义
-自定义key标签、标签颜色。
+## Global Options
+### Redis Connection Advanced Options
+Unified settings for Redis connection advanced options. Advanced option configurations in the connection management window have higher priority.
+### Key Tag Customization
+Customize key tags and tag colors.
 
-## 窗口
-### 标签页效果
-设置窗口标签页效果。
+## Window
+### Tab Effects
+Set window tab effects.
 
-## 扩展
-### 编/解码器
-自定义编解码器。详见 [数据编解码](./extensions.md#数据编解码)
+## Extensions
+### Codec
+Custom codecs. See [Data Encoding/Decoding](./extensions.md#Data%20Encoding/Decoding) for details.
