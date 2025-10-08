@@ -16,7 +16,7 @@ hero:
       link: /zh/introduction
     - theme: alt
       text: 立即下载
-      link: https://github.com/tanhuang2016/RedisFX/releases/latest
+      link: https://gitcode.com/tanh2016/RedisFX/releases/v2.3.11
 
 features:
   - title: 全平台支持
