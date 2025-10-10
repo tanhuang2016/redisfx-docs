@@ -60,8 +60,8 @@ Theme library uses [AtlantaFX](https://github.com/mkpaz/atlantafx), defaults to 
 ## Example Images
 
 <ImageWithTheme 
-  light-src="/png/introduction/en/example.png"
-  dark-src="/png/introduction/en/example_dark.png"
+  light-src="/png/introduction/example.png"
+  dark-src="/png/introduction/example_dark.png"
   alt="Example Image"
   margin="10px 10px 10px 10px"
 />
