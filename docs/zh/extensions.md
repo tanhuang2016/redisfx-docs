@@ -77,7 +77,120 @@ set finalResult=%resultString:~0,-4%
 echo %finalResult%
 ```
 
+
+2. 功能为使用`.python`脚本实现对数据的加解密。
+[示例代码](https://github.com/tanhuang2016/RedisFX-demo/tree/main/extensions/converter/python)
+
+
+- 解码器
+``` python
+import sys
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+# 配置密钥和IV（根据实际加密参数修改）
+key = b"1234567890123456"  # 16字节AES密钥
+iv = b"1234567890123456"   # 16字节IV
+
+# 直接从stdin读取二进制数据
+data = sys.stdin.buffer.read()
+
+# AES解密
+cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
+decryptor = cipher.decryptor()
+decrypted = decryptor.update(data) + decryptor.finalize()
+
+# 直接通过stdout输出二进制结果
+sys.stdout.buffer.write(decrypted)
+sys.stdout.flush()
+
+```
+
+- 编码器
+``` python
+import sys
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+# 配置密钥和IV（与解密脚本保持一致）
+key = b"1234567890123456"  # 16字节AES密钥
+iv = b"1234567890123456"   # 16字节IV
+
+# 从stdin读取明文数据
+plaintext = sys.stdin.buffer.read()
+
+# PKCS7填充
+padding_length = 16 - (len(plaintext) % 16)
+plaintext += bytes([padding_length] * padding_length)
+
+# AES加密
+cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
+encryptor = cipher.encryptor()
+encrypted = encryptor.update(plaintext) + encryptor.finalize()
+
+# 通过stdout输出加密结果
+sys.stdout.buffer.write(encrypted)
+sys.stdout.flush()
+```
+
 ### 文件交互示例
+
+::: tip 注意
+文件交互模式下，输入和输出文件名固定为redis-fx.input和redis-fx.output。
+:::
+
+1. 功能为使用`.python`脚本实现对数据的加解密。
+[示例代码](https://github.com/tanhuang2016/RedisFX-demo/tree/main/extensions/converter/python)
+
+
+- 解码器
+``` python
+import os
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+# 配置密钥和IV（根据实际加密参数修改）
+key = b"1234567890123456"  # 16字节AES密钥
+iv = b"1234567890123456"   # 16字节IV
+# 输入输出路径需要和自定义编解码器中的配置保持一致，且输入固定为redis-fx.input 输出固定为redis-fx.output
+io_dir = r'E:\test\decode'
+with open(os.path.join(io_dir, 'redis-fx.input'), "rb") as f:
+    # 从文件读取二进制数据
+    data = f.read()
+
+# AES解密
+cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
+decryptor = cipher.decryptor()
+decrypted = decryptor.update(data) + decryptor.finalize()
+
+# 将二进制数据写入文件
+with open(os.path.join(io_dir, 'redis-fx.output'), "wb") as f:
+    f.write(decrypted)
+
+```
+
+- 编码器
+``` python
+import sys
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+# 配置密钥和IV（与解密脚本保持一致）
+key = b"1234567890123456"  # 16字节AES密钥
+iv = b"1234567890123456"   # 16字节IV
+
+# 从stdin读取明文数据
+plaintext = sys.stdin.buffer.read()
+
+# PKCS7填充
+padding_length = 16 - (len(plaintext) % 16)
+plaintext += bytes([padding_length] * padding_length)
+
+# AES加密
+cipher = Cipher(algorithms.AES(key), modes.CBC(iv))
+encryptor = cipher.encryptor()
+encrypted = encryptor.update(plaintext) + encryptor.finalize()
+
+# 通过stdout输出加密结果
+sys.stdout.buffer.write(encrypted)
+sys.stdout.flush()
+```
 
 
 ## 数据查看方式
