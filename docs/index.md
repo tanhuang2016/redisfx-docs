@@ -16,7 +16,8 @@ hero:
       link: /introduction
     - theme: alt
       text: Download
-      link: https://github.com/tanhuang2016/RedisFX/releases/latest
+      link: /download
+      # link: https://github.com/tanhuang2016/RedisFX/releases/latest
 
 features:
   - title: Full platform support
