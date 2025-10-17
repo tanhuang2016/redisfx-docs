@@ -1,5 +1,5 @@
 {
-  "version": "v2.3.11",
+  "version": "v2.3.13",
   "devDependencies": {
     "vitepress": "^1.6.4"
   },
