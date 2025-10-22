@@ -5,7 +5,7 @@ import ImageWithTheme from '../.vitepress/components/ImageWithTheme.vue'
 # 什么是 RedisFX？
 
 <div class="tip custom-block" style="padding-top: 8px">
-当前文档版本为 v2.3.13，文档版本将与 RedisFX应用版本保持一致。
+当前文档版本为 v2.3.14，文档版本将与 RedisFX应用版本保持一致。
 </div>
 
 ## 简介
