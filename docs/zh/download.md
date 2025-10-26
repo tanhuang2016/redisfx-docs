@@ -2,20 +2,20 @@
 
 
 ### 🪟Windows
-- [rdm-ui-2.3.14-windows-x86_64.exe](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-windows-x86_64.exe)
-- [rdm-ui-2.3.14-windows-x86_64.zip](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-windows-x86_64.zip)
-- [rdm-ui-2.3.14-windows-x86_64.msi](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-windows-x86_64.msi)
-- [rdm-ui-2.3.14-windows-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-windows-x86_64.jar)
+- [rdm-ui-2.3.15-windows-x86_64.exe](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-windows-x86_64.exe)
+- [rdm-ui-2.3.15-windows-x86_64.zip](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-windows-x86_64.zip)
+- [rdm-ui-2.3.15-windows-x86_64.msi](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-windows-x86_64.msi)
+- [rdm-ui-2.3.15-windows-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-windows-x86_64.jar)
 ### 🐧Linux
-- [rdm-ui-2.3.14-linux-x86_64.rpm](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-x86_64.rpm)
-- [rdm-ui-2.3.14-linux-x86_64.gz](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-x86_64.gz)
-- [rdm-ui-2.3.14-linux-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-x86_64.jar)
-- [rdm-ui-2.3.14-linux-arm64.rpm](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-arm64.rpm)
-- [rdm-ui-2.3.14-linux-arm64.gz](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-arm64.gz)
-- [rdm-ui-2.3.14-linux-arm64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-linux-arm64.jar)
+- [rdm-ui-2.3.15-linux-x86_64.rpm](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-x86_64.rpm)
+- [rdm-ui-2.3.15-linux-x86_64.gz](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-x86_64.gz)
+- [rdm-ui-2.3.15-linux-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-x86_64.jar)
+- [rdm-ui-2.3.15-linux-arm64.rpm](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-arm64.rpm)
+- [rdm-ui-2.3.15-linux-arm64.gz](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-arm64.gz)
+- [rdm-ui-2.3.15-linux-arm64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-linux-arm64.jar)
 
 ### 🍎MacOS
-- [rdm-ui-2.3.14-macos-x86_64.dmg](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-macos-x86_64.dmg)
-- [rdm-ui-2.3.14-macos-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-macos-x86_64.jar)
-- [rdm-ui-2.3.14-macos-arm64.dmg](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-macos-arm64.dmg)
-- [rdm-ui-2.3.14-macos-arm64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.14/rdm-ui-2.3.14-macos-x86_64.jar)
+- [rdm-ui-2.3.15-macos-x86_64.dmg](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-macos-x86_64.dmg)
+- [rdm-ui-2.3.15-macos-x86_64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-macos-x86_64.jar)
+- [rdm-ui-2.3.15-macos-arm64.dmg](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-macos-arm64.dmg)
+- [rdm-ui-2.3.15-macos-arm64.jar](https://gitee.com/tanhuang2016/RedisFX/releases/download/v2.3.15/rdm-ui-2.3.15-macos-x86_64.jar)
