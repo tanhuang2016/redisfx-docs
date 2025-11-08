@@ -52,6 +52,10 @@ export default defineConfig({
             text: '贡献指南',
             link: '/zh/contribution',
             
+          },{
+            text: '友情链接',
+            link: '/zh/friendship',
+            
           },
           
         ],
@@ -112,7 +116,11 @@ export default defineConfig({
         text: 'Contribution',
         link: '/contribution',
 
-      }
+      },{
+            text: 'Friendship Link',
+            link: '/friendship',
+            
+          },
     ],
     footer: {
       message: 'Released under the Apache License 2.0',
