@@ -8,7 +8,14 @@ export default defineConfig({
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/svg/fx_icon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'icon', href: '/png/fx_icon_256.png', type: 'image/png' }]
+    ['link', { rel: 'icon', href: '/png/fx_icon_256.png', type: 'image/png' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-SGY51497JE' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SGY51497JE');
+    `]
     // 如果用 svg 或 png，可以改为 '/favicon.svg' 或 '/favicon.png'
   ],
   locales: {
