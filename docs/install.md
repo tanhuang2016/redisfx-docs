@@ -23,18 +23,18 @@ Everyone can choose according to their usage habits and needs.
 
 ## Linux
 
-Three distribution versions are provided on the Linux platform, including x86 and ARM architectures. Among them, `.rpm` is an installation version, whose installation process is the same as other software. `.gz` is a portable version that can be run after decompression. `.jar` is the native Java version that requires a Java runtime environment.
+Three distribution versions are provided on the Linux platform, including x86 and ARM architectures. Among them, `.rpm` is an installation version, whose installation process is the same as other software. `.tar.gz` is a portable version that can be run after decompression. `.jar` is the native Java version that requires a Java runtime environment.
 
 - `rdm-ui-v2.x.x-linux-x86_64.rpm`
-- `rdm-ui-v2.x.x-linux-x86_64.gz`
+- `rdm-ui-v2.x.x-linux-x86_64.tar.gz`
 - `rdm-ui-v2.x.x-linux-x86_64.jar`
 - `rdm-ui-v2.x.x-linux-arm64.rpm`
-- `rdm-ui-v2.x.x-linux-arm64.gz`
+- `rdm-ui-v2.x.x-linux-arm64.tar.gz`
 - `rdm-ui-v2.x.x-linux-arm64.jar`
 
 ## MacOS
 
-Two distribution versions are provided on the MacOS platform, including x86 and ARM architectures. Among them, `.dmg` is an installation version, whose installation process is the same as other software. `.gz` is a portable version that can be run after decompression. `.jar` is the native Java version that requires a Java runtime environment.
+Two distribution versions are provided on the MacOS platform, including x86 and ARM architectures. Among them, `.dmg` is an installation version, whose installation process is the same as other software. `.tar.gz` is a portable version that can be run after decompression. `.jar` is the native Java version that requires a Java runtime environment.
 
 - `rdm-ui-v2.x.x-macos-x86_64.dmg`
 - `rdm-ui-v2.x.x-macos-x86_64.jar`
