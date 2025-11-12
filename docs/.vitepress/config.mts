@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // base: '/redisfx-docs/',
   title: "RedisFX",
-  description: "A RedisFX Guide",
+  description: "RedisFX Guide",
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/svg/fx_icon.svg', type: 'image/svg+xml' }],
