@@ -17,7 +17,7 @@ hero:
     - theme: alt
       text: 立即下载
       link: /zh/download
-      # link: https://gitee.com/tanhuang2016/RedisFX/releases/v2.3.18
+      # link: https://gitee.com/tanhuang2016/RedisFX/releases/v2.3.19
 
 features:
   - title: 全平台支持
