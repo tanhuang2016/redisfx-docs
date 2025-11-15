@@ -47,7 +47,7 @@ export default defineConfig({
               { text: '设置', link: '/zh/settings' }
             ]
           },
-           {
+          {
             text: '开发和构建',
             collapsed: false,
             items: [
@@ -58,13 +58,13 @@ export default defineConfig({
           {
             text: '贡献指南',
             link: '/zh/contribution',
-            
-          },{
+
+          }, {
             text: '友情链接',
             link: '/zh/friendship',
-            
+
           },
-          
+
         ],
         footer: {
           message: '基于 Apache Licence 2.0 许可发布',
@@ -84,7 +84,9 @@ export default defineConfig({
         },
 
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' }
+          { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' },
+          { icon: 'discord', link: 'https://discord.gg/8wnJmTUj' },
+          { icon: 'twitter', link: 'https://x.com/HashDog2016' }
         ]
       }
     }
@@ -123,18 +125,20 @@ export default defineConfig({
         text: 'Contribution',
         link: '/contribution',
 
-      },{
-            text: 'Friendship Link',
-            link: '/friendship',
-            
-          },
+      }, {
+        text: 'Friendship Link',
+        link: '/friendship',
+
+      },
     ],
     footer: {
       message: 'Released under the Apache License 2.0',
       copyright: 'Copyright © 2023-present RedisFX Contributors'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' }
+      { icon: 'github', link: 'https://github.com/tanhuang2016/RedisFX' },
+      { icon: 'discord', link: 'https://discord.gg/8wnJmTUj' },
+      { icon: 'twitter', link: 'https://x.com/HashDog2016' }
     ]
   }
 })
