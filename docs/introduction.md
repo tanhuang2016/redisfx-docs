@@ -5,7 +5,7 @@ import ImageWithTheme from '.vitepress/components/ImageWithTheme.vue'
 # What is RedisFX?
 
 <div class="tip custom-block" style="padding-top: 8px">
-The current document version is v2.3.20, and the document version will be consistent with the RedisFX application version.
+The current document version is v2.3.21, and the document version will be consistent with the RedisFX application version.
 </div>
 
 ## Introduction
