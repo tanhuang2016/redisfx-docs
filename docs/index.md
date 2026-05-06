@@ -8,7 +8,7 @@ hero:
   text: "Redis visualization tool developed based on JavaFX"
   tagline: Generate electricity for love
   image:
-    src: /png/duke.png
+    src: /png/duke_mini.png
     alt: VitePress
   actions:
     - theme: brand

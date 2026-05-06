@@ -6,9 +6,9 @@ titleTemplate: Redis可视化工具
 hero:
   name: "RedisFX"
   text: "基于JavaFX开发的Redis可视化工具"
-  tagline: 为爱发电，三年磨一剑
+  tagline: 为爱发电，四年磨一剑
   image:
-    src: /png/duke.png
+    src: /png/duke_mini.png
     alt: VitePress
   actions:
     - theme: brand
